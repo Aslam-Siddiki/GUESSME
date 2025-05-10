@@ -1,5 +1,3 @@
-let h2=document.querySelector("h2");
-
 const max=prompt("Enter the maximum number.");
 console.log(max);
 
@@ -14,7 +12,6 @@ while(true){
 
     if(guess == random){
         console.log("You are right! congrats!! Random number was",random);
-        h2.innerText=` You are right!  Congrats! The Number was ${random}. `
         break;
     }
     else if(guess < random){
